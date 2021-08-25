@@ -30,11 +30,12 @@
 
 @media only screen and (max-width: 768px){
      #flipvid{
-          transform: rotateY(180deg) scale(2);
+          transform: rotateY(180deg) scale(1);
+          overflow: hidden;
      }
 
      #stairs{
-          transform: scale(1.3) translateX(-37px);
+          transform: scale(1);
      }
 
      .fourthsect {
