@@ -30,8 +30,9 @@
 
 @media only screen and (max-width: 768px){
      #flipvid{
-          transform: rotateY(180deg) scale(1);
+          transform: rotateY(180deg) scale(2);
           overflow: hidden;
+          object-fit: contain;
      }
 
      #stairs{
