@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+     </style>
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link rel="stylesheet" href="style.css">
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SLICEIT</title>
+</head>
+<body style="font-family: 'poppins';">
+     <div class="container mx-auto">
+
+          <!-- navigation bar -->
+
+          <nav class="flex justify-between py-4 px-5 md:px-16 items-center pb-12">
+               <div class="w-20 md:w-24">
+                    <img src="Resources/img/logo.svg" alt="" class="logo min-w-0">
+               </div>
+               <ul class="hidden sm:block sm:flex gap-3 text-sm"> 
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Careers</a></li>
+               </ul>
+               <div class="flex flex-1 justify-end sm:hidden flex-none w-10">
+                    <img src="Resources/img/navmenu.svg" alt=""> 
+               </div>
+          </nav>
+
+          
+          <!-- hero section -->
+          <div class="md:flex flex-1 flex-row-reverse md:justify-between">
+
+               <!-- top -->
+               <div class="md:w-1/2 mb-8">
+                    <video class="mx-auto w-10/12 md:w-full" loop autoplay muted playsinline>
+                         <source src="Resources/vid/firstvid.mp4" type="video/mp4">
+                    </video>
+               </div>
+
+               <!-- bottom -->
+
+               <div class="md:w-1/2 md:px-16">
+                    <div class="md:w-4/5 text-4xl md:text-7xl font-bold text-center md:text-left">
+                         <p class="inline-block md:pb-4">slice</p>
+                         <p class="inline-block">super card</p>
+                    </div>
+     
+                    <div class="text-center pt-5 md:text-left">
+                         <p class="text-sm md:text-2xl md:pt-10 md:w-1/2">India’s best credit card challenger</p>
+                    </div>
+
+                    <div class="flex justify-center md:justify-start md:my-10">
+                         <div class="my-5" style="background-color: black;
+                         height: 4px;
+                         width: 18px;
+                         border-radius: 5px;">
+                         </div>
+                    </div>
+
+                    <div class="flex justify-center gap-6 md:justify-start md:pb-8">
+                         <img class="inline-block w-10 md:w-16" src="resources/img/apple.svg" alt="">
+                         <img class="inline-block w-10 md:w-16" src="resources/img/android.svg" alt="">
+                    </div>
+
+                    <div class="pt-5">
+                         <p class="text-sm text-center md:text-left md:text-2xl">Trusted by <span class="font-bold">3 million+</span> Indians</p> 
+                    </div>
+                    
+               </div>
+          </div>
+
+          <!-- second section -->
+          <div class="md:flex flex-row-reverse md:mt-10">
+               <!-- top -->
+               <div class="md:w-1/2 mt-14">  
+                    <h2 class="item w-full px-6 text-4xl font-bold leading-tight text-center md:text-7xl md:text-left md:px-12 md:pt-20 md:leading-tight" data-aos="fade-up">Get used to instant rewards.</h2>
+                    <p class="item text-center mt-4 px-12 md:text-2xl md:text-left md:mt-7" data-aos="fade-up" data-aos-delay="300">Enjoy upto 2% cashback on every transaction.</p>
+               </div>
+
+               <!-- bottom -->
+               <!-- <div class="md:w-1/2">
+                    <video width="100%" height="100%" loop autoplay muted playsinline>
+                         <source src="Resources/vid/playground-mobile.mp4" type="video/mp4">
+                    </video>
+               </div> -->
+               <div class="md:w-1/2 mt-40 md:px-10">
+                    <video id="flipvid" class="md:w-7/12 md:mx-auto" width="100%" height="100%" loop autoplay muted playsinline>
+                         <source src="resources/vid/secvid.mp4" type="video/mp4">
+                    </video>
+               </div>
+
+          </div>
+
+          <!-- third section -->
+          <div class="md:flex my-48">
+               <!-- left -->
+               <div class="md:w-1/2">
+                    <h2 class="item text-4xl md:text-7xl font-bold leading-tight md:leading-snug text-center px-10 md:text-left md:pl-16" data-aos="fade-up">slice your bill in 3, for free.</h2>
+                    <p class="item text-base md:text-3xl text-center pt-6 md:pt-16 px-14 md:pr-32 md:text-left md:px-16" data-aos="fade-up" data-aos-delay="300">Shop anywhere and slice all your bills over 3 months without any extra charges.</p>
+               </div>
+
+               <!-- right -->
+               <div class="md:w-1/2 mt-32">
+                    <video id="stairs" width="100%" height="100%" loop autoplay muted playsinline>
+                         <source src="resources/vid/thirdvid.mp4" type="video/mp4">
+                    </video>
+               </div>
+          </div>
+
+          <!-- fourth-section -->
+          <div>
+               <div class="fourthsect md:flex flex-row-reverse mx-auto py-10 items-center">
+
+                    <!-- left -->
+                    <div class="md:w-1/2">
+                         <h2 class="item text-3xl font-bold text-left pl-8 md:text-6xl md:p-12 md:leading-snug" data-aos="fade-up">Experience simplicity, like never before.</h2>
+                    </div>
+
+                    <!-- right -->
+                    <div class="md:w-1/2">
+                         <video class="md:p-6 w-52 md:w-9/12 mx-auto py-6 overflow-hidden" loop autoplay muted playsinline>
+                              <source src="resources/vid/mobile.mp4">
+                         </video>
+                    </div>
+               </div>
+          </div>
+
+
+          <!-- fifth section -->
+          <div class="fifth-sect md:flex justify-between mx-auto">
+               <!-- top -->
+               <div class="five five-one text-3xl mx-auto md:mx-0 mt-20 font-bold text-white p-8 leading-snug md:text-5xl">
+              
+                    <div class="item mb-5 md:pt-8" data-aos="fade-up">
+                         <p class="w-full md:pl-7">NO annual fees.</p>
+                    </div>
+                    <div div class="item mb-5 md:pl-7" data-aos="fade-up" data-aos-delay="300">
+                         <p>NO joining fees.</p>
+                    </div>
+                    <div div class="item md:pl-7" data-aos="fade-up" data-aos-delay="600">
+                         <p>NO hidden charges.</p>
+                    </div>
+     
+               </div>
+
+               <!-- bottom -->
+               <div class="five five-two mt-20 flex mx-auto flex-col md:flex-col-reverse justify-between">
+
+                    <div class="p-4">
+                         <img class="w-full" src="resources/img/rocket.svg" width="100" height="100" alt="">
+                    </div>
+
+                    <div div class="item md:text-4xl text-2xl font-bold pt-0 pb-8 px-10 md:mt-10 md:p-8" data-aos="fade-up" style="color: #633dea;">
+                         <p>Credit Limits that touch skies: from ₹10k - ₹10L.</p>
+                    </div>
+     
+               </div>
+
+          </div>
+
+
+     </div>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+          AOS.init({
+               duration: 1000,
+          });
+     </script>
+</body>
+</html>
