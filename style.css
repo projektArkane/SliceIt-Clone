@@ -1,9 +1,8 @@
 @media only screen and (max-width: 1536px){
      #flipvid{
-          transform: scale(1.7);
+          /* transform: scale(1.7); */
 
      }
-
      .fourthsect {
           width: 75%; 
           height: 530px; 
@@ -69,13 +68,13 @@
 
 @media only screen and (max-width: 768px){
      #flipvid{
-          transform: rotateY(180deg) scale(2);
+          /* transform: rotateY(180deg) scale(2); */
           overflow: hidden;
           object-fit: contain;
      }
 
      #stairs{
-          transform: scale(1);
+          /* transform: scale(1); */
      }
 
      .fourthsect {
