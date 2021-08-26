@@ -11,6 +11,20 @@
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
      }
 
+     .ninth-sect {
+          width: 75%; 
+          height: 530px; 
+          border-radius: 3%; 
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+     #seven {
+          width: 75%; 
+          height: 540px; 
+          border-radius: 3%; 
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
      .five-one {
           width: 80%;
           height: 380px;
@@ -22,6 +36,24 @@
           width: 80%; 
           height: 420px;
           border-radius: 3%;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+     #mficons {
+          width: 70%;
+          height: 545px; 
+          border-radius: 3%;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+     }
+
+     #icons {
+          transform: scale(0.95);
+     }
+
+     #eight-mom {
+          width: 75%; 
+          height: 540px; 
+          border-radius: 3%; 
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
      }
 }
@@ -46,6 +78,14 @@
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
      }
 
+     #seven {
+          width: 80%; 
+          height: 325px; 
+          border-radius: 3%; 
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+
      .five-one {
           width: 80%;
           height: 380px;
@@ -57,6 +97,52 @@
           width: 80%; 
           height: 420px;
           border-radius: 3%;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+     #eight-1 {
+          width: 80%; 
+          height: 325px; 
+          border-radius: 3%; 
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+     #eight-2 {
+          width: 80%; 
+          height: 460px; 
+          border-radius: 3%; 
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+     #eight-2 div img {
+          width: 80%;
+          height: 80%;
+     }
+
+     #mficons {
+          width: 70%;
+          height: 545px;
+          border-radius: 3%;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+     }
+
+     /* #manage-video {
+          width: 70%;
+          height: 70%;
+     } */
+
+     #icons {
+          max-width: 90%; 
+          max-height: 90%;
+          overflow: hidden;
+          margin-left: 1em;
+          padding-bottom: 30px;
+     }
+
+     .ninth-sect {
+          width: 80%; 
+          height: 590px; 
+          border-radius: 3%; 
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
      }
 }
@@ -72,4 +158,6 @@
           height: 500px;
      }
 }
+
+
 
