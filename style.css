@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1536px){
      #flipvid{
           transform: scale(1.7);
@@ -63,6 +64,19 @@
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; background-color: #633dea;
      }
 }
+
+@media (min-width: 361px) and (max-width: 640px) {
+     .rocket {
+          margin-top: -80px;
+          transform: scale(0.6);
+     }
+
+     .credit-limits {
+          position: relative;
+          top: -40px;
+     }
+}
+
 
 @media (max-width: 768px){
      .flipvid{
@@ -131,10 +145,10 @@
      }
 
      #icons {
-          max-width: 90%; 
-          max-height: 90%;
+          max-width: 50%; 
+          max-height: 50%;
           overflow: hidden;
-          margin-left: 1em;
+          margin-left: 100px;
           padding-bottom: 30px;
      }
 
@@ -145,6 +159,9 @@
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
      }
 
+     .new-deals {
+          font-size: 1em;
+     }
 }
 
 
@@ -161,10 +178,17 @@
      .comp-vid {
           transform: scale(1.8);
      }
-}
 
-@media (min-width: 640px) and (max-width: 768px) {
-     
+     #icons {
+          max-width: 70%; 
+          max-height: 70%;
+          overflow: hidden;
+          margin-left: 1em;
+          padding-bottom: 30px;
+     }
+
+
+
 }
 
 
@@ -271,6 +295,51 @@
      .podium {
           transform: scale(1.4);
      }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+     .play-g {
+          transform: scale(0.5);
+     }
+
+     .podium {
+          transform: scale(0.5);
+     }
+}
+
+@media (max-width: 360px) {
+
+     #icons {
+          max-width: 50%; 
+          max-height: 50%;
+          overflow: hidden;
+          margin-left: 70px;
+          padding-bottom: 30px;
+     }
+
+     .new-deals {
+          font-size: 1.7em;
+          width: 120%;
+     }
+
+     .merchants {
+          font-size: 1.5em;
+     }
+
+     .experience {
+          font-size: 1.3em;
+          padding-right: 20px;
+     }
+
+     .man-exp {
+          font-size: 1.5em;
+          padding-right: 20px;
+     }
+
+     .all-ears {
+          font-size: 1.2em;
+     }
+
 }
 
 
