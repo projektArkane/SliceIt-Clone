@@ -14,36 +14,37 @@
      <title>SLICEIT</title>
 </head>
 <body style="font-family: 'poppins';">
-     <div style="margin: 0; padding: 0;" class="container mx-auto">
 
-          <!-- navigation bar full-->
-          <nav class="hidden md:block z-10 md:w-full bg-white fixed py-4 px-5 md:pl-16 items-center pb-0">
-               <div class="w-20 md:w-24">
-                    <img src="Resources/img/logo.svg" alt="" class="logo min-w-0">
-               </div>
-               <div>
-                    <ul style="position: relative; top: -25px;" class="hidden md:float-right sm:block gap-3 text-sm mx-10"> 
-                         <li style="display: inline-block;"><a href="#">About us</a></li>
-                         <li class="px-4" style="display: inline-block;"><a href="#">Help Center</a></li>
-                         <li style="display: inline-block;"><a href="#">Careers</a></li>
-                    </ul>
-               </div>
-               <div class="flex flex-1 justify-end sm:hidden flex-none w-10">
-                    <img src="Resources/img/navmenu.svg" alt=""> 
-               </div>
-          </nav>
+     <!-- navigation bar full-->
+     
+     <nav class="hidden md:block z-10 md:w-full bg-white fixed py-4 px-5 md:pl-16 items-center pb-0">
+          <div class="w-20 md:w-24">
+               <img src="Resources/img/logo.svg" alt="" class="logo min-w-0">
+          </div>
+          <div>
+               <ul style="position: relative; top: -25px;" class="hidden md:float-right sm:block gap-3 text-sm mx-10"> 
+                    <li style="display: inline-block;"><a href="#">About us</a></li>
+                    <li class="px-4" style="display: inline-block;"><a href="#">Help Center</a></li>
+                    <li style="display: inline-block;"><a href="#">Careers</a></li>
+               </ul>
+          </div>
+          <div class="flex flex-1 justify-end sm:hidden flex-none w-10">
+               <img src="Resources/img/navmenu.svg" alt=""> 
+          </div>
+     </nav>
 
-          <!-- navigation bar small -->
+     <!-- navigation bar small -->
 
-          <nav class="w-full z-10 fixed md:hidden bg-white py-4 px-4 md:px-16">
-               <div class="inline-block w-20 md:w-24">
-                    <img src="Resources/img/logo.svg" alt="" class="logo min-w-0">
-               </div>
-               <div class="inline-block sm:hidden w-10 float-right">
-                    <img src="Resources/img/navmenu.svg" alt=""> 
-               </div>
-          </nav>
+     <nav class="w-full z-10 fixed md:hidden bg-white py-4 px-4 md:px-16">
+          <div class="inline-block w-20 md:w-24">
+               <img src="Resources/img/logo.svg" alt="" class="logo min-w-0">
+          </div>
+          <div class="inline-block sm:hidden w-10 float-right">
+               <img src="Resources/img/navmenu.svg" alt=""> 
+          </div>
+     </nav>
 
+     <div style="padding: 0;" class="container mx-auto">
 
           <!-- hero section -->
           <div class="md:flex flex-1 flex-row-reverse md:justify-between">
@@ -152,10 +153,45 @@
 
 
           <!-- fifth section -->
-          <div class="fifth-sect md:flex justify-between mx-auto">
-               <!-- top -->
-               <div class="five five-one text-3xl mx-auto md:mx-0 mt-20 font-bold text-white p-8 leading-snug md:text-5xl">
+
+          <div class="md:hidden">
+               <div id="eight-1" style="background-color: #6D3AFE;" class="md:flex flex-row-reverse md:mt-20 mt-16 mx-auto py-10 text-center text-white font-bold text-3xl">
               
+                    <div class="no-annual item md:pt-8 px-8 text-left" data-aos="fade-up">
+                         <p">NO annual fees.</p>
+                    </div>
+                    <div div class="no-annual pl-6 item my-5 ml-2 px-8 text-left" data-aos="fade-up" data-aos-delay="300">
+                         <p>NO joining fees.</p>
+                    </div>
+                    <div div class="no-annual item px-8 text-left" data-aos="fade-up" data-aos-delay="600">
+                         <p>NO hidden charges.</p>
+                    </div>
+     
+     
+               </div>
+     
+               <div id="eight-2" style="background-color: #ffffff;" class="md:flex flex-row-reverse md:mt-20 mt-16 mx-auto py-10 items-center">
+     
+                    <div>
+                         <div class="p-4">
+                              <img class="rocket w-full md:w-4/5 md:ml-24" src="https://www.sliceit.com/static/media/rocket.bc2fe776.svg" width="100" height="100" alt="">
+                         </div>
+     
+                         <div div class="item md:text-4xl text-2xl font-bold pt-0 pb-8 px-10 md:mt-16 md:-mb-10 md:py-0" data-aos="fade-up" style="color: #633dea;">
+                              <p class="credit-limits">Credit Limits that touch skies: from ₹10k - ₹10L.</p>
+                         </div>
+                    </div>
+     
+               </div>
+          </div>
+
+
+          <!-- hidden -->
+
+          <div class="hidden md:flex flex justify-between items-center mx-28 mx-auto" style="width: 75%; height: 610px;">
+
+               <!-- left -->
+               <div style="width: 48%; height: 570px; border-radius: 3%; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; background-color: #6D3AFE; font-size: 3em;" class="mt-20 text-white font-bold p-12 leading-tight">
                     <div class="item mb-5 md:pt-8" data-aos="fade-up">
                          <p class="no-annual w-full md:pl-7">NO annual fees.</p>
                     </div>
@@ -165,18 +201,19 @@
                     <div div class="no-annual item md:pl-7" data-aos="fade-up" data-aos-delay="600">
                          <p>NO hidden charges.</p>
                     </div>
-     
                </div>
-
-               <!-- bottom -->
-               <div class="five five-two mt-20 flex mx-auto flex-col md:flex-col-reverse justify-between">
-
-                    <div class="p-4">
-                         <img class="rocket w-full md:w-4/5 md:ml-24" src="https://www.sliceit.com/static/media/rocket.bc2fe776.svg" width="100" height="100" alt="">
-                    </div>
-
-                    <div div class="item md:text-4xl text-2xl font-bold pt-0 pb-8 px-10 md:mt-16 md:-mb-10 md:py-0" data-aos="fade-up" style="color: #633dea;">
-                         <p class="credit-limits">Credit Limits that touch skies: from ₹10k - ₹10L.</p>
+     
+               <!-- right -->
+               <div style="width: 48%; height: 570px; border-radius: 3%; box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;" class="mt-20 flex flex-col justify-between">
+     
+                    <div>
+                         <div class="p-4">
+                              <img class="rocket w-full md:w-4/5 md:ml-24" src="https://www.sliceit.com/static/media/rocket.bc2fe776.svg" width="100" height="100" alt="">
+                         </div>
+     
+                         <div div class="item md:text-4xl text-2xl font-bold pt-0 pb-8 px-10 md:mt-16 md:-mb-10 md:py-0" data-aos="fade-up" style="color: #633dea;">
+                              <p class="credit-limits">Credit Limits that touch skies: from ₹10k - ₹10L.</p>
+                         </div>
                     </div>
      
                </div>
@@ -185,7 +222,7 @@
            
           <!-- sixth section -->
           <div>
-               <div class="fourthsect mt-12 md:flex mx-auto py-0 items-center">
+               <div class="fourthsect mt-12 md:mt-24 md:flex mx-auto py-0 items-center">
 
                     <!-- left -->
                     <div class="md:w-1/2 md:pl-6 md:-mt-6">
@@ -350,8 +387,89 @@
           </div>
      </div>
 
-     <!-- footer section -->
-     <footer class="mt-14 p-6 text-gray-200" style="background-color: #4A3083;">
+
+
+
+
+<!-- footer-section-desktop -->
+
+     <footer class="hidden md:flex footer-f mt-20" style="line-height: 30px;">
+          <div class="container-f pl-14" style="margin-top: 1.5em;">
+               <div class="rows-f">
+                    <div class="footer-col-f">
+                         <h4>company</h4>
+                         <ul>
+                              <li><a href="#">home</a></li>
+                              <li><a href="#">careers</a></li>
+                              <li><a href="#">help center</a></li>
+                              <li></li>
+                              <li></li>
+                         </ul>
+                    </div>
+                    <div class="footer-col-f">
+                         <h4>legal</h4>
+                         <ul>
+                              <li><a href="#">privacy</a></li>
+                              <li><a href="#">terms of service</a></li>
+                              <li><a href="#">disclaimer</a></li>
+                              <li><a href="#">safety</a></li>
+                              <li><a href="#">financing partners</a></li>
+                              <li><a href="#">corporate governance</a></li>
+                         </ul>
+                    </div>
+                    <div class="footer-col-f">
+                         <h4>contact us</h4>
+                         <ul>
+                              <li style="font-size: 1.3em; color: #FFFFFFB3">+91-8047096430</li>
+                              <li><a href="">help@sliceit.com</a></li>
+                              <br>
+                              <br>
+                              <h4 style="margin-bottom: 15px;">registered office</h4>
+                              <li>
+                                   <p style="font-size: 1.3em; color: #FFFFFFB3">GaragePreneurs Internet Pvt Ltd 747, Pooja Building, 80ft Road, 4th Block,Koramangala Bangalore - 560034 CIN U72900KA2015PTC080871
+                                   </p>
+                              </li>
+                         </ul>
+                    </div>
+
+                    <div class="footer-col-f">
+                         <h4 class="text-left" style="">connect with us</h4>
+                         <div class="icons">
+                              <div class="social-links text-white" style=" display: flex; justify-content: space-between; width: 100%;">
+                                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                   <a href="#"><i class="fab fa-instagram"></i></a>
+                                   <a href="#"><i class="fab fa-twitter"></i></a>
+                                   <a href="#"><i class="fab fa-linkedin"></i></a>
+                              </div>
+                              <div class="flex gap-4" style="margin-top: 80px;">
+                                   <img src="resources/img/ps.svg" alt="" width="110px">
+                                   <img src="resources/img/as.svg" alt="" width="110px">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div style="color: #FFFFFFB3; display: flex; justify-content: space-between; margin-top: 2.5em;">
+                    <p class="text-sm">&copy; 2021 GaragePreneurs Internet Pvt Ltd. All
+                         Rights Reserved.</p>
+
+                    <p class="text-sm" style="position: relative; left: -3px;">256 Bit
+                         SSL Security</p>
+
+                    <div class="flex gap-12">
+                         <img src="https://res.cloudinary.com/slicepay/image/upload/v1624559118/website/sliceit/home/svg/logo/sbm.svg" alt="" width="60px">
+                         <img src="https://res.cloudinary.com/slicepay/image/upload/v1624559118/website/sliceit/home/svg/logo/VISA-white.svg" alt="" width="50px">
+                         <img src="https://www.pngfind.com/pngs/m/106-1067556_pci-dss-certification-logo-hd-png-download.png" alt="" width="65px">
+                    </div>
+
+               </div>
+          </div>
+     </footer>
+     
+
+
+     <!-- footer-section-phone -->
+     <footer class="md:hidden mt-14 p-6 text-gray-200" style="background-color: #4A3083;">
           <div>
                <!-- connect with us -->
                <p>connect with us</p>
