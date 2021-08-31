@@ -75,6 +75,10 @@
           top: -40px;
      }
 
+     .play-g {
+          transform: scale(2.5);
+     }    
+
 }
 
 
@@ -163,6 +167,10 @@
           margin-top: 2em;
           font-size: 1.5em;
      }
+
+     /* .play-g {
+          transform: scale(2);
+     } */
 }
 
 
