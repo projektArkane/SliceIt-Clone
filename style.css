@@ -75,6 +75,7 @@
           position: relative;
           top: -40px;
      }
+
 }
 
 
@@ -160,7 +161,8 @@
      }
 
      .new-deals {
-          font-size: 1em;
+          margin-top: 2em;
+          font-size: 1.5em;
      }
 }
 
@@ -354,7 +356,8 @@
 .footer-f {
      height: 100vh;
      background-color: #4a3083;
-     padding: 80px 0;
+     padding: 80px 40px 0px 0px;
+     /* padding-right: 20px; */
 }
 
 .footer-col-f{
@@ -366,12 +369,12 @@
      font-size: 1.4em;
      font-weight: 500;
      color: #FFFFFFE6;
-     margin-bottom: 2.5em;
+     margin-bottom: 1.5em;
      position: relative;
 }
 
 .footer-col-f ul li a {
-     color: #FFFFFFB3;
+     color: #ffffff96;
      text-decoration: none;
      font-size: 1.3em;
 }
