@@ -1,3 +1,2 @@
-# Slice
-Slice Clone
-https://projektarkane.github.io/Slice/
+# SliceIt Clone
+https://projektarkane.github.io/SliceIt-Clone/
